@@ -1,9 +1,10 @@
+import Header from "../components/header/Header";
 
 
 const Home = () => {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">This is Home!</h1>
+     <Header/> 
     </>
   );
 };
