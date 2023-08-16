@@ -2,16 +2,16 @@ const Navbar = () => {
   <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>;
   return (
     <>
-      <div className="mx-auto">
-        <nav className="border-gray-200 px-2 mb-10">
-          <div className="mx-auto flex flex-wrap items-center justify-between">
+      <div className="mx-auto h-100%">
+        <nav className="border-gray-200 px-2 mb-10  bg-primary">
+          <div className="mx-auto h-12 flex flex-wrap items-center justify-between">
             <a href="#" className="flex">
               <svg
                 className="h-10 mr-3"
                 width="51"
                 height="70"
                 viewBox="0 0 51 70"
-                fill="none"
+                fill="black"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <g clip-path="url(#clip0)">
@@ -34,7 +34,7 @@ const Navbar = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span className="self-center text-lg font-semibold whitespace-nowrap">
+              <span className="self-center text-secondary text-lg font-semibold whitespace-nowrap">
                 FlowBite
               </span>
             </a>
@@ -71,7 +71,7 @@ const Navbar = () => {
                 <span className="sr-only">Open main menu</span>
                 <svg
                   className="w-6 h-6"
-                  fill="currentColor"
+                  fill="white"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -103,7 +103,7 @@ const Navbar = () => {
                 <li>
                   <a
                     href="#"
-                    className="bg-blue-700 md:bg-transparent text-white block pl-3 pr-4 py-2 md:text-blue-700 md:p-0 rounded"
+                    className="w-12 bg-white text-black hover:text-white hover:bg-blue-700 block pl-3 pr-4 py-2 md:p-0 rounded text-center"
                     aria-current="page"
                   >
                     Home
@@ -112,7 +112,7 @@ const Navbar = () => {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0"
+                    className=" text-white border-b border-gray-100 md:hover:bg-balck md:border-0 block pl-3 pr-4 py-2 hover:text-blue-700 md:p-0"
                   >
                     About
                   </a>
@@ -120,7 +120,7 @@ const Navbar = () => {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0"
+                    className="text-white border-b border-gray-100  md:border-0 block hover:text-blue-700 pl-3 pr-4 py-2  md:p-0"
                   >
                     Services
                   </a>

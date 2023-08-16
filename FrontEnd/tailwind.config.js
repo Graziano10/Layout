@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#1937A2', // Cambia questo colore con quello che desideri
+        primary: '#212224', // Cambia questo colore con quello che desideri
         secondary: '#FFFFFF', // Cambia questo colore con quello che desideri
         tertiary: '#F42305', // Cambia questo colore con quello che desideri
         invert: '#FA8003', // Cambia questo colore con quello che desideri
